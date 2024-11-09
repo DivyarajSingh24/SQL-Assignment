@@ -60,7 +60,7 @@ __
             (2, 'Science', 1),
             (3, 'History', 2),
             (4, 'English', 3);
-![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/create%20and%20insert.png)
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/0012c1621a9246acdf1b3df6b9a7196da2f92a5d/output/creat2.png)
 
   8- Inner Join :An inner join returns rows that have matching values in both tables
 
