@@ -41,7 +41,7 @@ __
 
 
             SELECT * FROM students WHERE gender = 'Female';
-![image alt](
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/5ac8cb863ee6b493151025d4f850c41925849c4a/output/Screenshot%20(52).pnghttps://github.com/DivyarajSingh24/SQL-Assignment/blob/5ac8cb863ee6b493151025d4f850c41925849c4a/output/Screenshot%20(52).png)
 
 6- Creating Additional Tables and Joining
 
