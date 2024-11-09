@@ -13,6 +13,9 @@
         dob DATE,
         gender VARCHAR(10)
     );
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/create%20database.png)
+
+__
 2-  Inserting into students:
 
       INSERT INTO students (roll_no, name, enrollment_no, address, dob, gender)
@@ -21,20 +24,24 @@
         (2, 'Bob Smith', 'EN23456', '456 Elm St', '2002-02-02', 'Male'),
         (3, 'Charlie Brown', 'EN34567', '789 Oak St', '2003-03-03', 'Male'),
         (4, 'Daisy Miller', 'EN45678', '101 Pine St', '2004-04-04', 'Female');
-
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/create%20and%20insert.png)
 
 3- Retrieve all students:
 
           SELECT * FROM students;
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/select%20all.png)
 
 4- Sort students by name:
 
          SELECT * FROM students ORDER BY name ASC;
 
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/order%20by.png)
          
 5- Retrieve students with a specific gender:
 
+
             SELECT * FROM students WHERE gender = 'Female';
+![image alt](
 
 6- Creating Additional Tables and Joining
 
@@ -53,12 +60,14 @@
             (2, 'Science', 1),
             (3, 'History', 2),
             (4, 'English', 3);
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/create%20and%20insert.png)
 
   8- Inner Join :An inner join returns rows that have matching values in both tables
 
               SELECT s.name, c.course_name
               FROM students s
               INNER JOIN courses c ON s.roll_no = c.roll_no;
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/inner%20join.png)
 
   9- Left Join
     A left join returns all rows from the left table (first table), and the matched rows from the right table
@@ -66,7 +75,8 @@
 
          SELECT s.name, c.course_name
         FROM students s
-        LEFT JOIN courses c ON s.roll_no = c.roll_no;
+        LEFT JOIN courses c ON s.roll_no = c.roll_no
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/left%20join.png)
 
 10-  Right Join
     A right join returns all rows from the right table (second table), and the matched rows from the left table. 
@@ -74,6 +84,7 @@
          SELECT s.name, c.course_name
           FROM students s
           RIGHT JOIN courses c ON s.roll_no = c.roll_no;
+![image alt](https://github.com/DivyarajSingh24/SQL-Assignment/blob/452426d2fdaff825dd12548be8dfa471a1978d2c/output/right%20join.png)
     
         
         
